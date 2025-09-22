@@ -1,9 +1,24 @@
-downloads/*
-*.session
+# Python cache
 __pycache__/
-*.pyc
-log.txt
-venv/
-.idea/
-pythonenv3.8/
-.vscode/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Logs and databases
+*.log
+*.db
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Cookies file
+cookies.txt
+
+# System files
+.DS_Store
+Thumbs.db
