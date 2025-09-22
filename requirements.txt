@@ -3,3 +3,4 @@ tgcrypto
 yt-dlp
 ffmpeg-python
 python-dotenv
+ffmpeg
