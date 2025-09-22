@@ -1,19 +1,16 @@
-# Youtube Dl bot 😉
-## Prerequisite
-    ffmpeg
-  
-    
-## install dependencies
-    pip3 install -r requirements.txt
+# 🎥 YouTube Downloader Telegram Bot
 
+Download YouTube videos directly via Telegram with quality selection (1080p, 2k, 4k) using **Pyrogram + yt-dlp**.
 
-## Setup Bot
-    - Change configuration config.py  File
-    - install dependencies
-    - python3 -m bot
-    
-## Thanks ❤️
-* [Spechide](https://telegram.dog/SpEcHIDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-* [HasibulKabir](https://telegram.dog/HasibulKabir)
+## Features
+- Download YouTube videos
+- Supports cookies for age-restricted/private videos
+- Uploads directly to Telegram
+- Quality selection: 1080p / 2k / 4k
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aryanvikash/Youtube-Downloader-Bot/tree/master)
+## Setup
+
+1. Clone the repo:
+```bash
+git clone https://github.com/<your-username>/YT-Telegram-Downloader-Bot.git
+cd YT-Telegram-Downloader-Bot
