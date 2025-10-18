@@ -4,9 +4,9 @@ import os
 load_dotenv()  # Load variables from .env file if present
 
 # Telegram API credentials
-API_ID = int(os.getenv("API_ID", "21519702"))
-API_HASH = os.getenv("API_HASH", "20fcf051ad48130f35fe01e82f5417cd")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7976010249:AAHX1GvKqNOuUq2QxOBqgOtzYs7yabD6l00")
+API_ID = int(os.getenv("API_ID", "21512"))
+API_HASH = os.getenv("API_HASH", "20fcf051ad30f35fe01e82f5417cd")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7976010249:AAHX1GvOuUq2QxOBqgOtzYs7yabD6l00")
 
 # Download settings
 DOWNLOAD_DIR = os.getenv("DOWNLOAD_DIR", "/sdcard/YTDownload1")
